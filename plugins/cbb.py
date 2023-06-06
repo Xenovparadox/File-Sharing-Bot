@@ -8,7 +8,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : @Xenov7x\n○ Language : <code>Python3</code>\n○ Source Code : <a href='https://telegram.me/Sn_botsupport'>Available</a>\n○ Channel : @SupernovaNetwork\n○ Support Group : <a href='https://telegram.me/anime_supernova_chat'>This Channel</b>",
+            text = f"<b>○ Creator : @Xenov7x\n○ Language : <code>Python3</code>\n○ Source Code : N/A</a>\n○ Channel : @Series_Movies_Paradox\n○ Support Group : @SN_BotSupport</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
